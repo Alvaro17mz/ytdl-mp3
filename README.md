@@ -1,6 +1,4 @@
 
-# 🎵 YouTube to MP3 Downloader with GUI 🎵
-
 [![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
 [![Flet](https://img.shields.io/badge/Flet-0.4.x-green)](https://flet.dev/)
 [![yt-dlp](https://img.shields.io/badge/yt--dlp-2024.x-orange)](https://github.com/yt-dlp/yt-dlp)
