@@ -1,0 +1,10 @@
+# Archivos generados por Python
+__pycache__/
+*.pyc
+
+# Carpeta temporal donde se almacenan las descargas
+descargas/
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
