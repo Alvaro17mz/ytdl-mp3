@@ -73,6 +73,6 @@ if __name__ == "__main__":
 
 #info
 """
-https://youtu.be/bRqbHpXklPU?si=4nezoLN9h_78sc4R
+https://youtu.be/bRqbHpXklPU
 https://flet.dev/docs/
 """
