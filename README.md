@@ -33,12 +33,32 @@ Una herramienta sencilla para descargar audios de YouTube en formato MP3 con una
     cd ytdl-mp3
     ```
 
-2. **Instala las dependencias**:
+2. **(Opcional) Crea un entorno virtual**:
+    Es recomendable usar un entorno virtual para aislar las dependencias del proyecto.  
+    - Crea el entorno:
+      ```bash
+      python -m venv env
+      ```
+    - Actívalo:
+      - En **Windows**:
+        ```bash
+        .\env\Scripts\activate
+        ```
+      - En **macOS/Linux**:
+        ```bash
+        source env/bin/activate
+        ```
+
+3. **Instala las dependencias**:
     ```bash
     pip install -r requirements.txt
     ```
+¡Listo! No necesitas instalar FFmpeg por separado, ya que la librería `imageio_ffmpeg` lo incluye automáticamente.
 
-3. ¡Listo! No necesitas instalar FFmpeg por separado, ya que la librería `imageio_ffmpeg` lo incluye automáticamente.
+4. **Ejecuta la aplicación**:
+    ```bash
+    python app.py
+    ```
 
 ---
 
@@ -59,5 +79,4 @@ Una herramienta sencilla para descargar audios de YouTube en formato MP3 con una
 
 ## ⚠️ Advertencia
 
-Este proyecto es de uso personal y no está afiliado ni respaldado por YouTube, ni ninguna otra plataforma mencionada. Asegúrate de cumplir con los términos de servicio de YouTube y otros servicios utilizados.
-
+Este proyecto es de uso personal y no está afiliado ni respaldado por YouTube, ni ninguna otra plataforma mencionada. Asegúrate de cumplir con los términos de servicio de YouTube y otras plataformas utilizadas.
