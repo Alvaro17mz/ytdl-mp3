@@ -31,9 +31,9 @@ def main(page: ft.Page):
     page.title = "YouTube DL"
     page.window_width = 400
     page.window_height = 250
+    page.window_resizable = False
     page.dark_theme = ft.Theme(color_scheme_seed=ft.Colors.BLUE)
     page.vertical_alignment = ft.MainAxisAlignment.CENTER
-    page.window_resizable = False
     url_input = ft.TextField(label="Link de YouTube", width=350)
     output_text = ft.Text(value="", size=20)
 
