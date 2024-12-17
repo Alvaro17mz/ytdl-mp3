@@ -31,6 +31,7 @@ def main(page: ft.Page):
     page.title = "YouTube DL"
     page.window_width = 400
     page.window_height = 250
+    page.window_resizable = False
     page.dark_theme = ft.Theme(color_scheme_seed=ft.Colors.BLUE)
     page.vertical_alignment = ft.MainAxisAlignment.CENTER
 
